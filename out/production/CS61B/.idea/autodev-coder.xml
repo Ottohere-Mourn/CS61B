@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoDevCoderSettings">
+    <option name="customEngineRequestBodyFormatParam" value="{ “customFields”: {“model”: “deepseek-chat”, “stream”: true}, “messageKeys”: {“role”: “role”, “content”: “content”} }" />
+    <option name="customEngineResponseFormatParam" value="$.choices[0].delta.content" />
+    <option name="customEngineResponseTypeParam" value="SSE" />
+    <option name="customEngineServerParam" value="https://api.deepseek.com/chat/completions" />
+    <option name="customEngineTokenParam" value="sk-b39d115811b44852a6bf1b5bbe2eff62" />
+    <option name="maxTokenLengthParam" value="4000" />
+  </component>
+</project>
